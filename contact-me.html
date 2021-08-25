@@ -92,20 +92,26 @@
 				</div>
 			</div>
 		</nav>
-		<main class="page hire-me-page">
-			<section class="portfolio-block hire-me">
+		<main class="page contact-me-page">
+			<section class="portfolio-block contact-me">
 				<div class="container">
 					<div class="heading">
 						<h2 style="font-family: Alef, sans-serif">
 							Contact me
 						</h2>
 					</div>
-					<form>
+					<form
+						style="
+							background: linear-gradient(#ff7474, #4f6bff);
+							border: none;
+							border-radius: 30px;
+						"
+					>
 						<div class="mb-3">
 							<label class="form-label" for="subject"
 								>Subject</label
 							><select class="form-select" id="subject">
-								<optgroup label="This is a group">
+								<optgroup label="Select Subject">
 									<option value="12" selected="">
 										This is item 1
 									</option>
@@ -133,11 +139,11 @@
 						<div class="mb-3">
 							<div class="row">
 								<div class="col-md-6">
-									<label class="form-label" for="hire-date"
+									<label class="form-label" for="contact-date"
 										>Date</label
 									><input
 										class="form-control"
-										id="hire-date"
+										id="contact-date"
 										type="date"
 									/>
 								</div>

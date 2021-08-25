@@ -3721,6 +3721,7 @@ fieldset:disabled .btn {
 .nav-link:hover,
 .nav-link:focus {
 	color: #0b80cc;
+	transition: 0.3s;
 }
 .nav-link.disabled {
 	color: #6c757d;
@@ -6212,6 +6213,11 @@ fieldset:disabled .btn {
 .border-0 {
 	border: 0 !important;
 }
+
+section.portfolio-block.block-intro.border-bottom {
+	background: linear-gradient(#4f6bff, #ff8e8e);
+}
+
 .border-top {
 	border-top: 1px solid #dee2e6 !important;
 }
@@ -9635,6 +9641,11 @@ fieldset:disabled .btn {
 	border-radius: 100px;
 	margin-bottom: 30px;
 }
+#avatar:hover {
+	transform: scale(1.1) rotate(360deg);
+	filter: grayscale(100%);
+	transition: 0.8s;
+}
 .portfolio-block.website h3,
 .portfolio-block.website .h3 {
 	font-weight: bold;
@@ -10147,9 +10158,17 @@ fieldset:disabled .btn {
 .portfolio-navbar .navbar-nav .nav-item {
 	padding-right: 2rem;
 }
+.nav-item:hover {
+	transform: scale(1.1);
+	transition: 0.3s;
+}
 .portfolio-navbar .navbar-nav:last-child .item:last-child,
 .portfolio-navbar .navbar-nav:last-child .item:last-child a {
 	padding-right: 0;
+}
+#zareef-brand:hover {
+	transform: scale(1.1);
+	transition: 0.3s;
 }
 .portfolio-navbar .logo {
 	font-size: 1.5rem;
