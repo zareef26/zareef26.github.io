@@ -115,15 +115,16 @@
 				"
 			>
 				<div class="container">
-					<div
+					<img
 						class="avatar"
 						id="avatar"
+						src="./assets/img/avatars/avatar.jpg"
 						style="
 							background-image: url('assets/img/avatars/avatar.jpg');
 							width: 300px;
 							height: 300px;
 						"
-					></div>
+					/>
 					<div class="about-me">
 						<p
 							style="
@@ -132,6 +133,8 @@
 								font-family: Lato, sans-serif;
 							"
 							id="about-me"
+							onmouseover="document.getElementById('avatar').src='assets/img/avatars/hello.gif'"
+							onmouseout="document.getElementById('avatar').src='assets/img/avatars/avatar.jpg'"
 						>
 							Hello! I'm Adnan Zareef. Nice to meet you!
 						</p>
@@ -225,7 +228,7 @@
 			>
 				<div class="container">
 					<div class="heading">
-						<h2>Special Skills</h2>
+						<h2 id="about-me">Special Skills</h2>
 					</div>
 					<div class="row">
 						<div class="col-md-4">
@@ -297,7 +300,7 @@
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-md-12 col-lg-5 offset-lg-1 text">
-						<h3>Website Project</h3>
+						<h3 id="web-proj">Website Project</h3>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing
 							elit. Aenean eget velit ultricies, feugiat est sed,
@@ -358,7 +361,7 @@
 					></a>
 				</div>
 			</div>
-			<h6>©Adnan Zareef 2021</h6>
+			<h6 id="copyright">©Adnan Zareef 2021</h6>
 		</footer>
 		<script src="assets/bootstrap/js/bootstrap.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>

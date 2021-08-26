@@ -9663,6 +9663,10 @@ section.portfolio-block.block-intro.border-bottom {
 	margin-top: 30px;
 	max-width: 280px;
 }
+.portfolio-laptop-mockup:hover {
+	transform: scale(1.5);
+	transition: 0.6s;
+}
 .portfolio-block.website .text {
 	text-align: center;
 }
@@ -10231,8 +10235,17 @@ section.portfolio-block.block-intro.border-bottom {
 	transform: scale(1.2);
 	transition: 0.3s;
 }
+#web-proj:hover {
+	color: #000;
+	transition: 0.3s;
+}
 #liked-it:hover {
 	color: #fff;
+	transition: 0.3s;
+}
+#copyright:hover {
+	color: #fff;
+	font-size: larger;
 	transition: 0.3s;
 }
 /*!
