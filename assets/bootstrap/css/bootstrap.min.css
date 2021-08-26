@@ -9627,6 +9627,11 @@ section.portfolio-block.block-intro.border-bottom {
 	max-width: 800px;
 	margin: 0 auto;
 }
+#about-me:hover {
+	transform: scale(1.1);
+	color: #fff;
+	transition: 0.3s;
+}
 .portfolio-block.block-intro p {
 	font-size: 1.5em;
 	font-weight: 300;
@@ -10200,6 +10205,11 @@ section.portfolio-block.block-intro.border-bottom {
 .page-footer .links {
 	display: inline-block;
 }
+.links a:hover {
+	color: #fff;
+	transform: scale(1.2);
+	transition: 0.3s;
+}
 .page-footer .social-icons {
 	margin-top: 20px;
 	margin-bottom: 16px;
@@ -10209,7 +10219,6 @@ section.portfolio-block.block-intro.border-bottom {
 	margin: 0 3px;
 	color: #fff;
 	border: 1px solid;
-	opacity: 0.75;
 	border-radius: 50%;
 	width: 36px;
 	display: inline-block;
@@ -10219,8 +10228,14 @@ section.portfolio-block.block-intro.border-bottom {
 	line-height: 34px;
 }
 .page-footer .social-icons a:hover {
-	opacity: 1;
-} /*!
+	transform: scale(1.2);
+	transition: 0.3s;
+}
+#liked-it:hover {
+	color: #fff;
+	transition: 0.3s;
+}
+/*!
  * Pikaday
  * Copyright © 2014 David Bushell | BSD & MIT license | http://dbushell.com/
  */
