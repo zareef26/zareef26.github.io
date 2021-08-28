@@ -3713,6 +3713,30 @@ fieldset:disabled .btn {
 	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
 		border-color 0.15s ease-in-out;
 }
+.nav-link::after {
+	content: "";
+	display: block;
+	width: 0;
+	height: 2px;
+	background: #fff;
+	transition: width 0.3s;
+}
+.nav-link:hover::after {
+	width: 100%;
+	transition: width 0.3s;
+}
+.col-md-4::after {
+	content: "";
+	display: block;
+	width: 0;
+	height: 2px;
+	background: #fff;
+	transition: width 0.3s;
+}
+.col-md-4:hover::after {
+	width: 100%;
+	transition: width 0.3s;
+}
 @media (prefers-reduced-motion: reduce) {
 	.nav-link {
 		transition: none;
@@ -9664,7 +9688,7 @@ section.portfolio-block.block-intro.border-bottom {
 	max-width: 280px;
 }
 .portfolio-laptop-mockup:hover {
-	transform: scale(1.6);
+	transform: scale(1.3);
 	transition: 0.6s;
 }
 .portfolio-block.website .text {
