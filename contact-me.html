@@ -114,10 +114,13 @@
 							border: none;
 							border-radius: 30px;
 						"
+						action="https://formsubmit.co/adnanzareef@outlook.com" method="POST"
 					>
+					<input type="hidden" name="_next" value="https://zareef26.github.com/index.html">
+					<input type="hidden" name="_subject" value="A wildcard received!">
 						<div class="mb-3">
 							<label class="form-label" for="subject"
-								>Subject</label
+								>Subject :</label
 							><select class="form-select" id="subject">
 								<optgroup label="Select Subject">
 									<option value="12" selected="">
@@ -129,30 +132,33 @@
 							</select>
 						</div>
 						<div class="mb-3">
-							<label class="form-label" for="email">Your E-mail</label
+							<label class="form-label" for="email">E-mail Address :</label
 							><input
 								class="form-control"
 								type="email"
 								id="email"
+								required
 							/>
 						</div>
 						<div class="mb-3">
 							<label class="form-label" for="message"
-								>Your Message</label
+								>Your Message :</label
 							><textarea
 								class="form-control"
 								id="message"
+								required
 							></textarea>
 						</div>
 						<div class="mb-3">
 							<div class="row">
 								<div class="col-md-6">
 									<label class="form-label" for="contact-date"
-										>Contact Date</label
+										>Contact Date :</label
 									><input
 										class="form-control"
 										id="contact-date"
 										type="date"
+										required
 									/>
 								</div>
 								<div class="col-md-6 button">
