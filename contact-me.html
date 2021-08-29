@@ -114,27 +114,24 @@
 							border: none;
 							border-radius: 30px;
 						"
-						action="https://formsubmit.co/adnanzareef@outlook.com" method="POST"
+						action="https://formspree.io/f/mjvjjvrb" method="POST"
+						id="my-form"
 					>
-					<input type="hidden" name="_next" value="https://zareef26.github.com/index.html">
-					<input type="hidden" name="_subject" value="A wildcard received!">
-						<div class="mb-3">
-							<label class="form-label" for="subject"
-								>Subject :</label
-							><select class="form-select" id="subject">
-								<optgroup label="Select Subject">
-									<option value="12" selected="">
-										Request an appointment
-									</option>
-									<option value="13">Hire me for a work</option>
-									<option value="14">Other reason</option>
-								</optgroup>
-							</select>
-						</div>
+					<div class="mb-3">
+						<label class="form-label" for="subject">Subject :</label
+						><input
+							class="form-control"
+							name="Subject"
+							type="text"
+							id="subject"
+							required
+						/>
+					</div>
 						<div class="mb-3">
 							<label class="form-label" for="email">E-mail Address :</label
 							><input
 								class="form-control"
+								name="E-mail"
 								type="email"
 								id="email"
 								required
@@ -145,6 +142,7 @@
 								>Your Message :</label
 							><textarea
 								class="form-control"
+								name="Message"
 								id="message"
 								required
 							></textarea>
@@ -156,6 +154,7 @@
 										>Contact Date :</label
 									><input
 										class="form-control"
+										name="Date"
 										id="contact-date"
 										type="date"
 										required
@@ -171,8 +170,10 @@
 								</div>
 							</div>
 						</div>
+						<div id="backend">Contact service API by <a id="backend-link" href="https://formspree.io/" target="_blank">formspree.io</a></div>
 					</form>
 				</div>
+				<div id="status"></div>
 			</section>
 		</main>
 		<footer
@@ -217,5 +218,6 @@
 	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
 	<script src="assets/js/script.min.js"></script>
+	<script src="assets/js/contact.js"></script>
 </body>
 </html>

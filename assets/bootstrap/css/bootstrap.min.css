@@ -46,6 +46,30 @@
 		scroll-behavior: smooth;
 	}
 }
+#backend {
+	padding: 10px;
+	font-size: 25px;
+	margin: 10px;
+	border: solid tomato 2px;
+	border-radius: 50px;
+	text-align: center;
+}
+#backend-link {
+	color: rgb(255, 255, 255);
+}
+#backend-link:hover {
+	color: rgb(255, 153, 0);
+	transition: 0.1s;
+}
+.g-recaptcha {
+	margin-top: 10px;
+	padding-left: 20%;
+}
+#status {
+	padding: 15px;
+	font-size: 45px;
+	text-align: center;
+}
 body {
 	margin: 0;
 	font-family: "Lato", sans-serif;
