@@ -1,7 +1,7 @@
-function avatarChange() {
-	document.getElementById("avatar").src = "assets/img/avatars/hello.gif";
+function avatarChange(id) {
+	document.getElementById(id).src = "assets/img/avatars/hello.gif";
 }
 
-function avatarRestore() {
-	document.getElementById("avatar").src = "assets/img/avatars/avatar.jpg";
+function avatarRestore(id) {
+	document.getElementById(id).src = "assets/img/avatars/avatar.jpg";
 }
