@@ -1,3 +1,5 @@
+// Avatar
+
 function avatarChange(id) {
 	document.getElementById(id).src = "assets/img/avatars/hello.gif";
 }

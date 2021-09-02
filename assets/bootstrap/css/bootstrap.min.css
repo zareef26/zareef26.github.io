@@ -66,6 +66,10 @@
 	font-size: 45px;
 	text-align: center;
 }
+#contact-btn {
+	color: #fff;
+	border: solid #fff 1px;
+}
 body {
 	margin: 0;
 	font-family: "Lato", sans-serif;
@@ -74,7 +78,7 @@ body {
 	font-weight: 400;
 	line-height: 1.5;
 	color: #212529;
-	background: linear-gradient(#4f6bff, #ff8e8e);
+	background: linear-gradient(#0085ff 0%, #ff00c7 100%);
 	-webkit-text-size-adjust: 100%;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -3013,8 +3017,8 @@ fieldset:disabled .btn {
 	border-color: #212529;
 }
 .btn-outline-primary {
-	color: #0ea0ff;
-	border-color: #0ea0ff;
+	color: #fff;
+	border-color: #fff;
 }
 .btn-outline-primary:hover {
 	color: #fff;
@@ -6259,7 +6263,7 @@ fieldset:disabled .btn {
 }
 
 section.portfolio-block.block-intro.border-bottom {
-	background: linear-gradient(#4f6bff, #ff8e8e);
+	background: linear-gradient(90deg, #0085ff 0%, #ff00c7 100%);
 }
 
 .border-top {
@@ -9628,7 +9632,7 @@ section.portfolio-block.block-intro.border-bottom {
 	}
 }
 .gradient {
-	background: linear-gradient(120deg, #7f70f5, #0ea0ff);
+	background: linear-gradient(90deg, #0085ff 0%, #ff00c7 100%);
 	color: #fff;
 }
 .gradient.page-footer {
@@ -10043,6 +10047,7 @@ section.portfolio-block.block-intro.border-bottom {
 	margin: auto;
 	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
 }
+
 .portfolio-block.contact-me form .button button {
 	margin-top: 30px;
 }
