@@ -10283,10 +10283,11 @@ section.portfolio-block.block-intro.border-bottom {
 	text-align: center;
 	background-color: #c5c9d2;
 	line-height: 34px;
+	transition: 0.1s;
 }
 .page-footer .social-icons a:hover {
 	transform: scale(1.2);
-	transition: 0.3s;
+	transition: 0.1s;
 }
 #web-proj:hover {
 	color: #000;
