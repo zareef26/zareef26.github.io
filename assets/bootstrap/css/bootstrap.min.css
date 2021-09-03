@@ -70,6 +70,16 @@
 	color: #fff;
 	border: solid #fff 1px;
 }
+.work-experience,
+.education,
+.hobbies {
+	background-color: #fff;
+	border-radius: 5rem;
+	padding: 3rem;
+}
+.col-md-6 {
+	background-color: #fff;
+}
 body {
 	margin: 0;
 	font-family: "Lato", sans-serif;
