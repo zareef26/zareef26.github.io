@@ -80,6 +80,10 @@
 .col-md-6 {
 	background-color: #fff;
 }
+#submit-date,
+#submit-btn {
+	background: transparent;
+}
 body {
 	margin: 0;
 	font-family: "Lato", sans-serif;
